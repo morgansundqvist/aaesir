@@ -16,14 +16,17 @@ AAesir is a JSON REST API client for the terminal.
 ## Installation
 
 ```bash
-
+$ make build
+$ cp aaesir /usr/local/bin
 ```
 
 ## Usage
 
 ```bash
-
+$ aaesir
 ```
+
+![aaesir](https://github.com/morgansundqvist/aaesir/blob/main/docs/aaesir.gif)
 
 ## License
 
