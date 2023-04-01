@@ -27,7 +27,6 @@ func RemoveDuplicates(elements []string) []string {
 	return result
 }
 
-// Function which adds "..." to the end of the string if it is longer than the specified length
 func TruncateString(s string, length int) string {
 	if utf8.RuneCountInString(s) >= length {
 		return s[:length] + "..."
